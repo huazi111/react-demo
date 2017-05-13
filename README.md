@@ -4,6 +4,7 @@
 react + react-router + redux + immutable + less + ES6/7 + webpack + fetch
 
 ###redux
+
 	1.store 是保存数据的地方，整个应用只有一个Store,createStore函数用来生成store
 	
 	2.store 对象包含所有数据，如果想得到某时点的数据，就要对Store生成快照，这种时点数据集合叫做State。 store.getState()得到
